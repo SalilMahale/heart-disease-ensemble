@@ -1,0 +1,61 @@
+{
+  "n_rows": 303,
+  "n_pos": 139,
+  "n_neg": 164,
+  "missing": {
+    "ca": 4,
+    "thal": 2
+  },
+  "kept": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "dropped": [
+    "chol",
+    "fbs"
+  ],
+  "target_corr": {
+    "age": 0.2231,
+    "sex": 0.2768,
+    "cp": 0.4144,
+    "trestbps": 0.1508,
+    "chol": 0.0852,
+    "fbs": 0.0253,
+    "restecg": 0.1692,
+    "thalach": -0.4172,
+    "exang": 0.4319,
+    "oldpeak": 0.4245,
+    "slope": 0.3392,
+    "ca": 0.46,
+    "thal": 0.5221
+  },
+  "mpbe_all13_cv": {
+    "accuracy": 0.8246236559139787,
+    "precision": 0.8374653124653125,
+    "recall": 0.7763736263736263,
+    "f1": 0.8013858424877915,
+    "roc_auc": 0.9095669036845507
+  },
+  "rf_importance": {
+    "thal": 0.1546,
+    "thalach": 0.1488,
+    "cp": 0.1232,
+    "ca": 0.1136,
+    "oldpeak": 0.1081,
+    "age": 0.0968,
+    "trestbps": 0.0926,
+    "exang": 0.0557,
+    "slope": 0.0437,
+    "sex": 0.0375,
+    "restecg": 0.0255
+  }
+}

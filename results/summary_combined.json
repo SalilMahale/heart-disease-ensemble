@@ -1,0 +1,69 @@
+{
+  "n_rows": 918,
+  "n_pos": 508,
+  "n_neg": 410,
+  "missing": {
+    "trestbps": 60,
+    "chol": 201,
+    "fbs": 90,
+    "restecg": 2,
+    "thalach": 55,
+    "exang": 55,
+    "oldpeak": 62,
+    "slope": 307,
+    "ca": 609,
+    "thal": 484
+  },
+  "kept": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "fbs",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "dropped": [
+    "chol",
+    "restecg"
+  ],
+  "target_corr": {
+    "age": 0.282,
+    "sex": 0.3054,
+    "cp": 0.4714,
+    "trestbps": 0.1091,
+    "chol": 0.0906,
+    "fbs": 0.1081,
+    "restecg": 0.061,
+    "thalach": -0.3807,
+    "exang": 0.4324,
+    "oldpeak": 0.3666,
+    "slope": 0.2057,
+    "ca": 0.1649,
+    "thal": 0.3129
+  },
+  "mpbe_all13_cv": {
+    "accuracy": 0.808361204013378,
+    "precision": 0.8291945510750944,
+    "recall": 0.8269019607843138,
+    "f1": 0.8270475399927056,
+    "roc_auc": 0.8872969870875179
+  },
+  "rf_importance": {
+    "cp": 0.1899,
+    "age": 0.1634,
+    "thalach": 0.1632,
+    "oldpeak": 0.1138,
+    "trestbps": 0.1113,
+    "exang": 0.0801,
+    "thal": 0.0589,
+    "sex": 0.0423,
+    "slope": 0.0312,
+    "ca": 0.0255,
+    "fbs": 0.0204
+  }
+}
