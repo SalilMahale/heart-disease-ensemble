@@ -3,7 +3,7 @@
 Read this fully before doing anything. Everything below is DONE unless marked TODO. Your job is polish, fixes the user asks for, and viva prep. Do not rebuild from scratch.
 
 ## Who and what
-- Student: **Salil Mahale**, Roll 53, PID 232085, **BE CMPN B, Batch 3**, SFIT (Mumbai University). Solo project. Guide/teacher: **Dr. Nazneen Ansari** (guide only, NOT a co-author).
+- Student: **Salil Mahale**, **BE CMPN B, Batch 3**, SFIT (Mumbai University). Solo project. Guide/teacher: **Dr. Nazneen Ansari** (guide only, NOT a co-author).
 - Subject: Machine Learning [CSL 701], 2026-27. Class mini-project sheet row **#37**.
 - Base paper: Muthulakshmi, Parveen, Rajeswari, "Prediction of Heart Disease using Ensemble Learning", IJST 16(20):1469-1476, 2023 (file IJST-2022-2279.pdf in project knowledge). Their model = **MPBE**: MinMax scaling + Pearson correlation feature selection + bagging (100 estimators) with DT/RF/NB/SVM base learners, mean-score aggregation, claimed 95.33% on UCI Cleveland.
 - Report format: ML-REPORT-FORMAT-2026_Refined.pdf (chapters: Abstract, Lists, 1 Intro/Problem/Prereqs, 2 Lit review (20 papers), 3 Methodology (3.1 architecture + dataset/EDA, 3.3 algorithms), 4 Implementation, 5 Experimental setup (5.1-5.5), 6 Results, 7 GUI, 8 Code, 9 Conclusion, 10 References). Paper style reference: reference_for_our_own_paper.pdf (Jiu et al., Springer LNCS).

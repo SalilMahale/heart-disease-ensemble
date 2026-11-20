@@ -11,7 +11,7 @@ Muthulakshmi, Parveen and Rajeswari (IJST, 2023), with our own additions:
   * fuller evaluation: accuracy, precision, recall, F1, ROC-AUC, confusion
     matrices, stratified 10-fold cross-validation with a fixed seed
 
-Author : Salil Mahale (Roll 53, PID 232085), BE CMPN B, SFIT
+Author : Salil Mahale, BE CMPN B, SFIT
 Subject: Machine Learning (CSL 701), 2026-27
 """
 

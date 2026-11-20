@@ -1,6 +1,6 @@
 # Prediction of Heart Disease using Ensemble Learning (MPBE re-implementation)
 
-**Salil Mahale** — Roll 53, PID 232085, BE CMPN B, Batch 3, St. Francis Institute of Technology, University of Mumbai.
+**Salil Mahale** — BE CMPN B, Batch 3, St. Francis Institute of Technology, University of Mumbai.
 Machine Learning [CSL 701] mini project, 2026-27. Guide: **Dr. Nazneen Ansari**.
 Base paper: Muthulakshmi, Parveen and Rajeswari, "Prediction of Heart Disease using Ensemble Learning", *Indian Journal of Science and Technology* 16(20):1469-1476, 2023.
 
